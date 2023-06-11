@@ -5,4 +5,5 @@ import BaseLayout from './BaseLayout.astro';
 
 <BaseLayout pageTitle={frontmatter.title}>
   <h1>{frontmatter.title}</h1>
+  <slot />
 </BaseLayout>
